@@ -19,7 +19,7 @@ const Home = () => {
     
     return ( 
         <div className="home">
-            {blogs.map((blog) => {
+            {blogs.map((blog) => (
                 // You always need a key property for the DOM to not bitch up
                 <div className="blog-preview" key={blog.id}>
                     <h2>{ blog.title }</h2>
@@ -27,7 +27,7 @@ const Home = () => {
                     <br />
                     <p>{ blog.body }</p>
                 </div>
-            })}
+            ))}
         </div>
     );
 }
