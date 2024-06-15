@@ -1,18 +1,20 @@
 import './App.css';
 import './components/Navbar'
 import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
-  const person = { name: "Joshuel", age: "22" } 
+  // const person = { name: "Joshuel", age: "22" } 
   
   return (
     <div className="App">
       <Navbar />
+      <Navbar />
       <div className="content">
-        <h1>App Component</h1>
+        <Home />
       </div>
     </div>
   );
 }
-
+// add comment just for commit 
 export default App;
