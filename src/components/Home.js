@@ -20,7 +20,7 @@ const Home = () => {
     
     return ( 
       <div className="home">
-        <BlogList blogs={blogs}/>
+        <BlogList blogs={blogs} title={"sulyap sa dilim"}/>
       </div>
     );
 }
